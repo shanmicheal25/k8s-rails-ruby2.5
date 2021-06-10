@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 echo "This is ruby on rails test script "
 set -e
 
