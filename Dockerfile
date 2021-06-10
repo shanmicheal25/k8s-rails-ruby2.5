@@ -1,5 +1,5 @@
 #!/bin/sh
-FROM ruby:2.5
+FROM ruby:2.5.9
 
 RUN apt-get update && apt-get install -y nodejs yarn postgresql-client
 
