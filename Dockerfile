@@ -1,3 +1,4 @@
+#!/bin/sh
 FROM ruby:2.5
 
 

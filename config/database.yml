@@ -7,9 +7,15 @@
 default: &default
   adapter: mysql2
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+<<<<<<< HEAD
   username: zebra
   password: Abcd123$
   host: <%= ENV["MYSQL_HOST"] || "127.0.0.1" %>
+=======
+  username: root
+  password: password
+  host: mysql
+>>>>>>> 59a07c16e7e028d2aeb9e4ae3c790bef1814bf90
   socket: <%= ENV["MYSQL_SOCK"] || "/tmp/mysql.sock" %>
   timeout: 5000
 
