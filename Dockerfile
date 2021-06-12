@@ -1,5 +1,4 @@
-#!/bin/sh
-FROM ruby:2.5.3
+FROM ruby:2.5
 
 
 # Add a script to be executed every time the container starts.

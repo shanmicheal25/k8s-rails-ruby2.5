@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+docker build -t shanmicheal25/k8s-rails-ruby2.5:1.0.9 .
+docker push shanmicheal25/k8s-rails-ruby2.5:1.0.9 
