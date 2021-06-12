@@ -7,9 +7,9 @@
 default: &default
   adapter: mysql2
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: <%= ENV["MYSQL_DATABASE_USERNAME"] %>
-  password: <%= ENV["MYSQL_DATABASE_PASSWORD"] %>
-  host: <%= ENV["MYSQL_HOST"] || "127.0.0.1" %>
+  username: root
+  password: password
+  host: mysql
   socket: <%= ENV["MYSQL_SOCK"] || "/tmp/mysql.sock" %>
   timeout: 5000
 
